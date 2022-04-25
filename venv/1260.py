@@ -16,7 +16,6 @@ def bfs(graph, v, visited):
                 q.append(i)
                 visited[i] = True
 
-#today's commit
 def dfs(graph, v, visited):
     visited[v] = True
     print(v, end=" ")
